@@ -1,3 +1,4 @@
+import re
 import requests
 from bs4 import BeautifulSoup
 
@@ -9,7 +10,7 @@ if __name__ == '__main__':
         page = requests.get(website_address)
         soup = BeautifulSoup(page.content, 'html.parser')
         musicMap = soup.find(id='gnodMap')
-        artists = musicMap.find_all(class_='S')
+        artists = musicMap.find_all(id=re.compile('^s[1-48]'))
         for artist in artists:
             print(artist.get_text())
     except AttributeError:
