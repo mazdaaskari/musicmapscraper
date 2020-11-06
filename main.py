@@ -41,8 +41,6 @@ def __get_other_artists_name__(artistname, output, filepath) :
         click.echo('Artist not found ! \nPlease enter artist name correctly')
     except ConnectionError :
         click.echo('Not connected ! \nPlease check your internet connection')
-    finally :
-        file.close()
 
 
 if __name__ == '__main__' :
