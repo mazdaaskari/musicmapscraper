@@ -46,8 +46,8 @@ python main.py -a eminem
 
 - *Important : Be sure to use  ```' ' ``` for two-word artist/band names or more*
 
-#####if you want to output the artists/bands in a text file use the``` --output ``` option .
-######*If you don't use the file path after this command, the file will be created in the current path of the program*
+**if you want to output the artists/bands in a text file use the``` --output ``` option.**
+**if you don't use the file path after this command, the file will be created in the current path of the program.**
 Example :
 ```
 python main.py --artistname 'pink floyd' --output 
