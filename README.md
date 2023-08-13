@@ -1,6 +1,6 @@
 ## Music Map Scraper
-### From : Mazda Askari 
-##### mazdaaskari@outlook.com
+### From : Mehdi Askari 
+##### mehdiaskari@outlook.com
 ###### All data displayed by this program is received from [Music Map](https://www.music-map.com)
 
 With the help of this app, 
